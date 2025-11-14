@@ -1,11 +1,11 @@
 ﻿#Install-Module Microsoft.Graph -Scope CurrentUser
+#Install-Module Microsoft.Graph -AllowClobber -Force
 
 #Connect-MgGraph -Scopes "User.Read.All" -TenantId "<Tenant-ID oder -Domain>"
 
 # Verbindung zu Microsoft Graph
 #Connect-MgGraph -Scopes "Group.ReadWrite.All", "Directory.Read.All"
-Connect-MgGraph -Scopes "User.Read.All" -TenantId bd7fdd05-725d-4fbf-bf49-b4eb3694bd62
-
+Connect-MgGraph -Scopes "User.Read.All" -TenantId b736bd25-cf0c-47a9-bdb2-012e28649dc4
 
 # Funktion zur Erstellung statischer Gruppen
 function New-Group {

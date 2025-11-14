@@ -1,5 +1,5 @@
 ﻿# Verbindung zu Microsoft Graph
-Connect-MgGraph -TenantId bd7fdd05-725d-4fbf-bf49-b4eb3694bd62 -Scopes "Group.ReadWrite.All", "Directory.Read.All"
+Connect-MgGraph -TenantId b736bd25-cf0c-47a9-bdb2-012e28649dc4 -Scopes "Group.ReadWrite.All", "Directory.Read.All"
 
 # Funktion zur Erstellung dynamischer Gruppen
 function New-DynamicGroup {
