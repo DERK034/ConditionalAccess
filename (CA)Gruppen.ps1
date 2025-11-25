@@ -1,5 +1,7 @@
-﻿#Install-Module Microsoft.Graph -Scope CurrentUser
+#Install-Module Microsoft.Graph -Scope CurrentUser
 #Install-Module Microsoft.Graph -AllowClobber -Force
+
+#$ipversiontable
 
 #Connect-MgGraph -Scopes "User.Read.All" -TenantId "<Tenant-ID oder -Domain>"
 
